@@ -17,7 +17,7 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let desc = `╭━━━〔 *⎈ Sɪʟᴠᴀ Ｓᴘᴀʀᴋ мᎠ ⎈* 〕━━━┈⊷
+let desc = `╭━━━〔 *⎈ QUEEN DIANA MD ⎈* 〕━━━┈⊷
 ┃▸┃๏ *MUSIC DOWNLOADER*
 ╭━❮ *Download Audio* ❯━┈⊷
 ┃▸╭─────────────·๏
@@ -29,7 +29,7 @@ let desc = `╭━━━〔 *⎈ Sɪʟᴠᴀ Ｓᴘᴀʀᴋ мᎠ ⎈* 〕━━
 ┃▸┃๏ *Ago* - ${data.ago}
 ┃▸└────────────┈⊷
 ╰━━━━━━━━━━━━━━━⪼
-> *©⎈ Sɪʟᴠᴀ Ｓᴘᴀʀᴋ мᎠ ⎈ ♡*`
+> *©⎈ Queen Diana MD ⎈ ♡*`
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
 //download audio
@@ -39,7 +39,7 @@ let downloadUrl = down.dl_url
 
 //send audio
 await conn.sendMessage(from,{audio:{url: downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"audio/mpeg",fileName:data.title + "mp3",caption:"©⎈ Sɪʟᴠᴀ Ｓᴘᴀʀᴋ мᎠ ⎈"},{quoted:mek})
+await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"audio/mpeg",fileName:data.title + "mp3",caption:"©⎈ Queen Diana мᎠ ⎈"},{quoted:mek})
 }catch(e){
 reply(`${e}`)
 }
@@ -62,7 +62,7 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let des = `╭━━━〔 *⎈ Sɪʟᴠᴀ Ｓᴘᴀʀᴋ мᎠ ⎈* 〕━━━┈⊷
+let des = `╭━━━〔 *⎈ QUEEN DIANA MD ⎈* 〕━━━┈⊷
 ┃▸┃๏ *VIDEO DOWNLOADER*
 ╭━❮ *Download Audio* ❯━┈⊷
 ┃▸╭─────────────·๏
@@ -74,7 +74,7 @@ let des = `╭━━━〔 *⎈ Sɪʟᴠᴀ Ｓᴘᴀʀᴋ мᎠ ⎈* 〕━━�
 ┃▸┃๏ *Ago* - ${data.ago}
 ┃▸└────────────┈⊷
 ╰━━━━━━━━━━━━━━━⪼
-> *©⎈ Sɪʟᴠᴀ Ｓᴘᴀʀᴋ мᎠ ⎈♡*`
+> *©⎈ Queen Diana MD ⎈♡*`
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:des},{quoted:mek});
 
 //download video
@@ -84,7 +84,7 @@ let downloadUrl = down.dl_url
 
 //send video
 await conn.sendMessage(from,{video:{url: downloadUrl},mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"video/mp4",fileName:data.title + "mp4",caption:"©⎈ Sɪʟᴠᴀ Ｓᴘᴀʀᴋ мᎠ ⎈"},{quoted:mek})
+await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"video/mp4",fileName:data.title + "mp4",caption:"©⎈ Queen Diana MD ⎈"},{quoted:mek})
     
 }catch(a){
 reply(`${a}`)
