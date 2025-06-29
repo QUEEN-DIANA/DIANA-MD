@@ -61,7 +61,7 @@ cmd({
         'quoted': _0x4807fa
       });
       await _0x488fe3.sendMessage(_0x49635a, {
-        'text': "⚠️💎 Sɪʟᴠᴀ Sᴘᴀʀᴋ MD 💎 Links are not allowed in this group.\n@" + _0x36e9e2.split('@')[0x0] + " has been removed. 🚫",
+        'text': "⚠️💎 Queen Diana MD 💎 Links are not allowed in this group.\n@" + _0x36e9e2.split('@')[0x0] + " has been removed. 🚫",
         'mentions': [_0x36e9e2]
       }, {
         'quoted': _0x4807fa
