@@ -27,7 +27,7 @@ cmd({
         'quoted': _0x2bbd0c
       });
       await _0x4be391.sendMessage(_0x529db2, {
-        'text': "🚫 ⚠️💎 Sɪʟᴠᴀ Sᴘᴀʀᴋ MD 💎 BAD WORDS NOT ALLOWED⚠️ 🚫"
+        'text': "🚫 ⚠️💎 Queen Diana MD 💎 BAD WORDS NOT ALLOWED⚠️ 🚫"
       }, {
         'quoted': _0x2bbd0c
       });
