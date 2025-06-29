@@ -28,13 +28,13 @@ const wordInfo = `
 📝 *Example*: ${example}
 🔗 *Synonyms*: ${synonyms}
 
-> *@ 💎 Sɪʟᴠᴀ Sᴘᴀʀᴋ MD 💎*`;
+> *@ 💎 Diana MD 💎*`;
 
                                  return reply(wordInfo);
                              } catch (e) {
                                  console.log(e);
                                  if (e.response && e.response.status === 404) {
-                                     return reply("🚫💎 Sɪʟᴠᴀ Sᴘᴀʀᴋ MD 💎 Word not found. Please check the spelling and try again.");
+                                     return reply("🚫💎 Diana MD 💎 Word not found. Please check the spelling and try again.");
                                  }
                                  return reply("⚠️ An error occurred while fetching the definition. Please try again later.");
                              }
