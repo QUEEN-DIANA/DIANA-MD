@@ -45,8 +45,8 @@ async (conn, mek, m, { from, isGroup, groupMetadata, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363200367779016@newsletter',
-                    newsletterName: 'SILVA TECH INC',
+                    newsletterJid: '120363418937884318@newsletter',
+                    newsletterName: 'DIANA TECH INC',
                     serverMessageId: 143,
                 },
             },
@@ -102,7 +102,7 @@ async (conn, mek, m, { from, q, reply }) => {
 
 ${joke.punchline} 😄
 
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ SILVA*`;
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ DIANA*`;
 
         return reply(jokeMessage);
     } catch (e) {
@@ -167,7 +167,7 @@ cmd({
     let fontResults = data.result.map(font => '*' + font.name + ":*\n" + font.result).join("\n\n");
     
     // Message formatting
-    let message = `*SILVA SPARK FANCY FONTS*:\n\n${fontResults}\n\n> *BY SILVA SPARK*`;
+    let message = `*QUEEN DIANA FANCY FONTS*:\n\n${fontResults}\n\n> *BY QUEEN DIANA*`;
 
     // Sending the message with context info
     await conn.sendMessage(
@@ -179,7 +179,7 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363200367779016@newsletter',
+            newsletterJid: '120363418937884318@newsletter',
             newsletterName: 'SILVA SPARK',
             serverMessageId: 143
           }
