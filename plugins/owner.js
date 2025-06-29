@@ -30,26 +30,26 @@ END:VCARD`;
 
     // Send Image with Caption
     await conn.sendMessage(from, {
-      image: { url: 'https://files.catbox.moe/0vldgh.jpeg' },
+      image: { url: 'https://files.catbox.moe/vwct84.jpg' },
       caption: 
-`╭━━〔 *⎈ Sɪʟᴠᴀ Ｓᴘᴀʀᴋ мᎠ ⎈* 〕━━┈⊷
+`╭━━〔 *⎈ Diana мᎠ ⎈* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Owner Name:* ${ownerName}
 ┃◈┃• *Phone:* ${ownerNumber}
 ┃◈┃• *Bot Version:* 2.0.1
-┃◈┃• *Team:* Silva Developers 💖
+┃◈┃• *Team:* Diana Developers 💖
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 📣 _Reach out for support, updates, or collabs!_
 
-> 🔐 *Powered by Silva Spark MD*`,
+> 🔐 *Powered by Diana MD*`,
       contextInfo: {
         mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363200367779016@newsletter',
-          newsletterName: 'SILVA DEVELOPERS🥰💖🥰',
+          newsletterJid: '120363418937884318@newsletter',
+          newsletterName: 'DIANS DEVELOPERS🥰💖🥰',
           serverMessageId: 143
         }
       }
