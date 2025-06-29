@@ -25,7 +25,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, reply }) => {
     try {
-        const repoUrl = 'https://api.github.com/repos/SilvaTechB/silva-md-bot';
+        const repoUrl = 'https://github.com/QUEEN-DIANA/DIANA-MD.git';
         const { data } = await axios.get(repoUrl, { timeout: 8000 }); // timeout added
 
         const { stargazers_count, forks_count } = data;
@@ -39,10 +39,10 @@ async (conn, mek, m, { from, reply }) => {
         const commandFiles = fs.readdirSync('./plugins').filter(file => file.endsWith('.js')).length;
 
         const msg = `
-╭━━〔 *⎈ Silva Spark MD Runtime Info* 〕━━⊷
+╭━━〔 *⎈ QUEEN DIANA MD Runtime Info* 〕━━⊷
 ┃
-┃ 🧠 *Project:* Silva Spark MD
-┃ 🔗 *Repo:* https://github.com/SilvaTechB/silva-spark-md
+┃ 🧠 *Project:* DIANA MD
+┃ 🔗 *Repo:* https://github.com/QUEEN-DIANA/DIANA-MD.git
 ┃ ⭐ Stars: ${stargazers_count}
 ┃ 🍴 Forks: ${forks_count}
 ┃ 👥 Estimated Users: ${estUsers}
@@ -51,15 +51,15 @@ async (conn, mek, m, { from, reply }) => {
 ┃ 🕒 Uptime: ${uptime}
 ┃ 💻 System: ${platform} (${arch})
 ┃
-╰━━━⊷ *© SilvaTech Inc 2025*`.trim();
+╰━━━⊷ *© dianaTech Inc 2025*`.trim();
 
         const contextInfo = {
             forwardingScore: 999,
             isForwarded: true,
             mentionedJid: [m.sender],
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363200367779016@newsletter',
-                newsletterName: 'SILVA SPARK MD 💖🦄',
+                newsletterJid: '120363418937884318@newsletter',
+                newsletterName: 'QUEEN DIANA MD 💖🦄',
                 serverMessageId: 143
             }
         };
@@ -69,8 +69,8 @@ async (conn, mek, m, { from, reply }) => {
 
         // Send fancy image
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/0vldgh.jpeg' },
-            caption: `✨ *Silva Spark MD: Powering Smart Chats!* ✨\n\n📎 *Repo:* github.com/SilvaTechB/silva-md-bot\n⭐ Stars: ${stargazers_count}\n🍴 Forks: ${forks_count}\n👥 Users: ${estUsers}`,
+            image: { url: 'https://files.catbox.moe/21bevd.jpg' },
+            caption: `✨ *QUEEN DIANA MD: Powering Smart Chats!* ✨\n\n📎 *Repo:* github.com/QUEEN-DIANA/DIANA-MD.git\n⭐ Stars: ${stargazers_count}\n🍴 Forks: ${forks_count}\n👥 Users: ${estUsers}`,
             contextInfo
         }, { quoted: mek });
 
