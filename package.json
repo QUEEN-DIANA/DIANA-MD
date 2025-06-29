@@ -1,12 +1,12 @@
 {
-  "name": "silva-spark-md",
+  "name": "Diana-md",
   "version": "2.0.1",
-  "description": "A WhatsApp Bot Created By silva tech inc",
+  "description": "A WhatsApp Bot Created By Queen Diana",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name silva-spark-md",
-    "stop": "pm2 stop silva-spark-md",
-    "restart": "pm2 restart silva-spark-md"
+    "start": "pm2 start index.js --deep-monitoring --attach --name diana-md",
+    "stop": "pm2 stop diana-md",
+    "restart": "pm2 restart diana-md"
   },
    "dependencies": {
     "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
