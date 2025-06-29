@@ -63,8 +63,8 @@ cmd({
       'forwardingScore': 0x3e7,
       'isForwarded': true,
       'forwardedNewsletterMessageInfo': {
-        'newsletterJid': '120363200367779016@newsletter',
-        'newsletterName': "SILVA SPARK 🥰",
+        'newsletterJid': '120363418937884318@newsletter',
+        'newsletterName': "QUEEN DIANA 🥰",
         'serverMessageId': 0x8f
       }
     };
