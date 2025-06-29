@@ -25,7 +25,7 @@ OWNER_NAME: process.env.OWNER_NAME || "✦ Diana ✦ MD ✦",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ✦ Diana ✦ MD ✦*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/BVt9McxS/photo-2025-06-15-12-14-29-7516148628621099032.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/aq2sav.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> DIANA MD IS SPARKING ACTIVE AND ALIVE\n\n\nKEEP USING Diana SPARK FROM Diama TECH INC⚡",
 // add alive msg here 
