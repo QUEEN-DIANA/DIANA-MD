@@ -16,7 +16,7 @@ const divider = (length = 20, char = '─') => char.repeat(length);
 async function sendMenu(conn, from, mek, sender, text, title, sendAudio = false) {
   try {
     await conn.sendMessage(from, {
-      video: { url: 'https://files.catbox.moe/2xxr9h.mp4' },
+      video: { url: 'https://files.catbox.moe/uxt26j.mp4' },
       caption: text,
       gifPlayback: true,
       contextInfo: {
@@ -24,8 +24,8 @@ async function sendMenu(conn, from, mek, sender, text, title, sendAudio = false)
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363200367779016@newsletter',
-          newsletterName: 'SILVA SPARK MD 💖🦄',
+          newsletterJid: '120363418937884318@newsletter',
+          newsletterName: 'QUEEN DIANA MD 💖🦄',
           serverMessageId: 143
         }
       }
@@ -33,7 +33,7 @@ async function sendMenu(conn, from, mek, sender, text, title, sendAudio = false)
 
     if (sendAudio) {
       await conn.sendMessage(from, {
-        audio: { url: 'https://files.catbox.moe/a1sh4u.mp3' },
+        audio: { url: 'https://files.catbox.moe/7n4a9l.mp3' },
         mimetype: 'audio/mp4',
         ptt: true
       }, { quoted: mek });
@@ -55,7 +55,7 @@ cmd({
   try {
     const menuText = `
 ╭━━━━━━━━━━━━━━━━━━━━╮
-  ✨ SILVA SPARK MD ✨
+  ✨ QUEEN DIANA MD ✨
 ╰━━━━━━━━━━━━━━━━━━━━╯
 
 ${rainbow.join('')} BOT INFORMATION ${rainbow.reverse().join('')}
