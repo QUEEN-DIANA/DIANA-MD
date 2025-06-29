@@ -145,7 +145,7 @@ cmd({
   ];
   
   await sendAnimatedMessage(m, sock, {
-    initialText: "> silva",
+    initialText: "> Diana",
     frames,
     frameDelay: 800
   });
@@ -233,7 +233,7 @@ cmd({
   ];
   
   await sendAnimatedMessage(m, sock, {
-    initialText: "Silva Spark🗿",
+    initialText: "Queen Diana🗿",
     frames,
     frameDelay: 1500
   });
