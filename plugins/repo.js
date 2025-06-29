@@ -42,7 +42,7 @@ async (conn, mek, m, { from, reply }) => {
 ╭━━〔 *⎈ QUEEN DIANA MD Runtime Info* 〕━━⊷
 ┃
 ┃ 🧠 *Project:* DIANA MD
-┃ 🔗 *Repo:* https://github.com/QUEEN-DIANA/DIANA-MD.git
+┃ 🔗 *Repo:* https://github.com/QUEEN-DIANA/DIANA-MD/fork
 ┃ ⭐ Stars: ${stargazers_count}
 ┃ 🍴 Forks: ${forks_count}
 ┃ 👥 Estimated Users: ${estUsers}
