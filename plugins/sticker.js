@@ -31,7 +31,7 @@ cmd({
 
             let sticker = new Sticker(nameJpg, {
                 pack: pushname, // The pack name
-                author: 'silva spark', // The author name
+                author: 'queen diana', // The author name
                 type: q.includes('--crop') || q.includes('-c') ? StickerTypes.CROPPED : StickerTypes.FULL,
                 categories: ['🤩', '🎉'], // The sticker category
                 id: '12345', // The sticker id
@@ -48,7 +48,7 @@ cmd({
 
             let sticker = new Sticker(nameWebp, {
                 pack: pushname, // The pack name
-                author: 'silva spark', // The author name
+                author: 'queen diana', // The author name
                 type: q.includes('--crop') || q.includes('-c') ? StickerTypes.CROPPED : StickerTypes.FULL,
                 categories: ['🤩', '🎉'], // The sticker category
                 id: '12345', // The sticker id
