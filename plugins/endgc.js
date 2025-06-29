@@ -24,15 +24,15 @@ cmd({
     }
     const _0x5ad0e2 = _0x541c7c.user.id.split(':')[0x0];
     if (_0x112bfc !== _0x5ad0e2) {
-      return _0x1cd54a("【ＳＩＬＶＡ】💥ＳＰＡＲＫ💥【ＭＤ\n\n】Only the bot owner can use this command.");
+      return _0x1cd54a("【ＱＵＥＥＮ】💥ＤＩＡＮＡ💥【ＭＤ\n\n】Only the bot owner can use this command.");
     }
     if (!_0x119769) {
-      return _0x1cd54a("【ＳＩＬＶＡ】💥ＳＰＡＲＫ💥【ＭＤ】\n\nI need to be an admin to execute this command.");
+      return _0x1cd54a("【ＱＵＥＥＮ】💥ＤＩＡＮＡ💥【ＭＤ】\n\nI need to be an admin to execute this command.");
     }
     const _0x27054b = _0x561a47.participants;
     const _0x59ce1d = _0x27054b.filter(_0x31bd1b => !_0x4abe0f.includes(_0x31bd1b.id));
     if (_0x59ce1d.length === 0x0) {
-      return _0x1cd54a("【ＳＩＬＶＡ】💥ＳＰＡＲＫ💥【ＭＤ】\n\nThere are no non-admin members to remove.");
+      return _0x1cd54a("【ＱＵＥＥＮ】💥ＤＩＡＮＡ💥【ＭＤ】\n\nThere are no non-admin members to remove.");
     }
     _0x1cd54a("Starting to remove " + _0x59ce1d.length + " non-admin members...");
     for (let _0x58a736 of _0x59ce1d) {
@@ -43,7 +43,7 @@ cmd({
         console.error("Failed to remove " + _0x58a736.id + ':', _0x448767);
       }
     }
-    _0x1cd54a("【ＳＩＬＶＡ】💥ＳＰＡＲＫ💥【ＭＤ】\n\nSuccessfully removed all non-admin members from the group.");
+    _0x1cd54a("【ＱＵＥＥＮ】💥ＤＩＡＮＡ💥【ＭＤ】\n\nSuccessfully removed all non-admin members from the group.");
   } catch (_0x2ffa0d) {
     console.error("Error removing non-admin users:", _0x2ffa0d);
     _0x1cd54a("An error occurred while trying to remove non-admin members. Please try again.");
@@ -67,7 +67,7 @@ cmd({
 }) => {
   try {
     if (!_0x437d8e) {
-      return _0x454a95("【ＳＩＬＶＡ】💥ＳＰＡＲＫ💥【ＭＤ】\n\nThis command can only be used in groups.");
+      return _0x454a95("【ＱＵＥＥＮ】💥ＤＩＡＮＡ💥【ＭＤ】\n\nThis command can only be used in groups.");
     }
     const _0x86850b = _0x2c9a95.user.id.split(':')[0x0];
     if (_0x39ac26 !== _0x86850b) {
@@ -120,7 +120,7 @@ cmd({
       return _0x477905("Only the bot owner can use this command.");
     }
     if (!_0x1db97d) {
-      return _0x477905("【ＳＩＬＶＡ】💥ＳＰＡＲＫ💥【ＭＤ】\n\nI need to be an admin to execute this command.");
+      return _0x477905("【ＱＵＥＥＮ】💥ＤＩＡＮＡ💥【ＭＤ】\n\nI need to be an admin to execute this command.");
     }
     const _0x44e3d7 = _0x5289f6.participants;
     if (_0x44e3d7.length === 0x0) {
@@ -139,7 +139,7 @@ cmd({
         console.error("Failed to remove " + _0x447569.id + ':', _0x2fc4ea);
       }
     }
-    _0x477905("【ＳＩＬＶＡ】💥ＳＰＡＲＫ💥【ＭＤ】\n\nSuccessfully removed all members, excluding the bot and bot owner, from the group.");
+    _0x477905("【ＱＵＥＥＮ】💥ＤＩＡＮＡ💥【ＭＤ】\n\nSuccessfully removed all members, excluding the bot and bot owner, from the group.");
   } catch (_0x191e55) {
     console.error("Error removing members:", _0x191e55);
     _0x477905("An error occurred while trying to remove members. Please try again.");
