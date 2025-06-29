@@ -33,7 +33,7 @@ cmd({
     const _0x235f6c = await axios.get(_0x3ba124);
     if (_0x235f6c.data.status) {
       const _0x3a965b = _0x235f6c.data.imgUrl;
-      const _0x122bb7 = "🌌 Random Wallpaper: *" + _0x2d400f + "*\n\n> *©SILVA SPARK*";
+      const _0x122bb7 = "🌌 Random Wallpaper: *" + _0x2d400f + "*\n\n> *©QUEEN DIANA*";
       await _0x4e03bc.sendMessage(_0x12db73, {
         'image': {
           'url': _0x3a965b
