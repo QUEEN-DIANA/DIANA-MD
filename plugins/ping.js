@@ -42,7 +42,7 @@ async (conn, mek, m, { from, reply }) => {
             }
         }
 
-        const msg = `╭━━〔 *⎈ Sɪʟᴠᴀ Ｓᴘᴀʀᴋ - Sʏsᴛᴇᴍ Rᴇᴘᴏʀᴛ* 〕━━┈⊷
+        const msg = `╭━━〔 *⎈ Qᴜᴇᴇɴ - Dɪᴀɴᴀ Rᴇᴘᴏʀᴛ* 〕━━┈⊷
 ┃ ⚡ *Speed:* \`${ping}ms\`
 ┃ 🧠 *Uptime:* \`${uptime} mins\`
 ┃ 💾 *RAM:* \`${usedRAM}/${totalRAM} GB\`
@@ -51,7 +51,7 @@ async (conn, mek, m, { from, reply }) => {
 ┃ 👤 *Users:* \`${userCount}\`
 ┃ 👥 *Groups:* \`${groupCount}\`
 ┃ 📦 *Version:* \`v${version}\`
-╰━━━⊷ *© Silva Spark MD 2025* ⎈`;
+╰━━━⊷ *© Queen Diana MD 2025* ⎈`;
 
         await conn.sendMessage(from, {
             text: msg,
@@ -59,8 +59,8 @@ async (conn, mek, m, { from, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363200367779016@newsletter',
-                    newsletterName: '⚡ Silva Bot Status ⚡',
+                    newsletterJid: '120363418937884318@newsletter',
+                    newsletterName: '⚡ Diana Bot Status ⚡',
                     serverMessageId: 143
                 }
             }
@@ -86,13 +86,13 @@ async (conn, mek, m, { from, reply }) => {
         const temp = await conn.sendMessage(from, { text: "💫 *SPARKING... Please wait...*" });
         const ping = Date.now() - start;
 
-        const msg = `╭────❍ *𝐒𝐈𝐋𝐕𝐀 𝐒𝐏𝐀𝐑𝐊 𝐁𝐎𝐓*
+        const msg = `╭────❍ *𝐐𝐔𝐄𝐄𝐍 𝐃𝐈𝐀𝐍𝐀 𝐁𝐎𝐓*
 │
 ├ ✦ 𝙎𝙥𝙚𝙚𝙙: *${ping}ms*
 ├ ✦ 𝙋𝙞𝙣𝙜 𝙏𝙚𝙨𝙩: ✅
 ├ ✦ 𝙑𝙚𝙧𝙨𝙞𝙤𝙣: *v${version}*
 │
-╰────❍ *💖 Powered by SilvaTech Inc*`;
+╰────❍ *💖 Powered by DisnaTech Inc*`;
 
         await conn.sendMessage(from, { text: msg }, { quoted: temp });
     } catch (error) {
