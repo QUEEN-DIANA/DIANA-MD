@@ -621,16 +621,20 @@ if (!isReact && senderNumber === botNumber) {
   
   })
   }
-  app.get("/", (req, res) => {
+  // server route (for Heroku check)
+app.get("/", (req, res) => {
   res.send("diana md RUNNING ✅");
 });
 
-// ✅ Define port before using it
+// ✅ Heroku-compatible port definition
 const port = process.env.PORT || 3000;
 
-app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
+// ✅ Start server (must be inside main file for Heroku)
+app.listen(port, () => {
+  console.log(`🌐 Server listening at http://localhost:${port}`);
+});
 
+// ✅ Connect bot after server starts
 setTimeout(() => {
-  connectToWA();
+  connectToWA();  // make sure this function doesn't crash silently
 }, 4000);
-  
