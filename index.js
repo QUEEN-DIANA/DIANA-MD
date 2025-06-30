@@ -621,12 +621,16 @@ if (!isReact && senderNumber === botNumber) {
   
   })
   }
-  
   app.get("/", (req, res) => {
   res.send("diana md RUNNING ✅");
-  });
-  app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
-  setTimeout(() => {
-  connectToWA()
-  }, 4000);
+});
+
+// ✅ Define port before using it
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
+
+setTimeout(() => {
+  connectToWA();
+}, 4000);
   
