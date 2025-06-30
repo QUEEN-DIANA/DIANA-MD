@@ -621,7 +621,10 @@ if (!isReact && senderNumber === botNumber) {
   
   })
   }
-  // server route (for Heroku check)
+const express = require('express');
+const app = express();
+
+// server route (for Heroku check)
 app.get("/", (req, res) => {
   res.send("diana md RUNNING ✅");
 });
@@ -636,5 +639,5 @@ app.listen(port, () => {
 
 // ✅ Connect bot after server starts
 setTimeout(() => {
-  connectToWA();  // make sure this function doesn't crash silently
+  connectToWA();  // make sure this function is defined above
 }, 4000);
