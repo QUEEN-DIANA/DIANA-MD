@@ -10,6 +10,24 @@
   Packed with fun features, automation, group tools, media support, and more!<br><br>
   💫 Developed with ❤️ by <strong>Queen Diana</strong>
 </p>
+<div align="center">
+
+  <!-- Deploy to Heroku -->
+  <a href="https://heroku.com/deploy?template=https://github.com/QUEEN-DIANA/DIANA-MD" target="_blank">
+    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
+  </a>
+
+  <!-- GitHub Repo Button -->
+  <a href="https://github.com/QUEEN-DIANA/DIANA-MD" target="_blank">
+    <img src="https://img.shields.io/badge/Repo-%20QUEEN--DIANA%2FDIANA--MD-blue?style=for-the-badge&logo=github" alt="GitHub Repo">
+  </a>
+
+  <!-- Fork Button -->
+  <a href="https://github.com/QUEEN-DIANA/DIANA-MD/fork" target="_blank">
+    <img src="https://img.shields.io/badge/Fork--blue?style=for-the-badge&logo=github" alt="Fork Repo">
+  </a>
+
+</div>
 
 ---
 
