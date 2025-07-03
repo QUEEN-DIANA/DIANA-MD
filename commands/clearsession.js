@@ -7,7 +7,7 @@ const channelInfo = {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363420227773494@newsletter',
+            newsletterJid: '120363418937884318@newsletter',
             newsletterName: 'SNOWBIRD-XMD',
             serverMessageId: -1
         }
