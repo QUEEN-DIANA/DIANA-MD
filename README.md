@@ -1,6 +1,10 @@
 <h1 align="center">👑 DIANA-MD</h1>
 
 <p align="center">
+  <img src="https://files.catbox.moe/v25525.jpg" alt="Diana-MD Profile" width="200" style="border-radius: 20px;" />
+</p>
+
+<p align="center">
   WhatsApp Multi-Device Bot powered by <strong>Queen Diana</strong><br>
   <b>Cloud-ready, Panel-only Deployment</b> | 💻 <i>No Local Setup Needed</i>
 </p>
@@ -36,7 +40,4 @@
 During deployment, provide the following:
 
 ```env
-SESSION_ID=Your WhatsApp Session ID
-OWNER_NUMBER=2547XXXXXXXX
-BOT_NAME=DIANA-MD
-PREFIX=.
+DEPLOY ON A PANEL IT WILL PAIR WHILE DEPLOYING 
