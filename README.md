@@ -28,7 +28,7 @@
 | Platform | Status | Deploy |
 |----------|--------|--------|
 | Heroku   | ✅ | [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/QUEEN-DIANA/DIANA-MD) |
-| Railway  | ✅ | [Deploy on Railway](https://railway.app/new/template?template=https://github.com/QUEEN-DIANA/DIANA-MD) |
+| FREE PANEL | ✅ | [Deploy on Railway](https://bot-hosting.net/?aff=1348291098681937980) |
 | Render   | ✅ | [Deploy on Render](https://dashboard.render.com/blueprint/new?repo=https://github.com/QUEEN-DIANA/DIANA-MD) |
 
 > ❗ This bot is **not made for local execution** — use supported cloud panels only.
