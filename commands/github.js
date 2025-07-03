@@ -2,7 +2,7 @@ async function githubCommand(sock, chatId) {
     const repoInfo = `*🤖 DIANA XMD*
 
 *📂 GitHub Repository:*
-https://github.com/QUEEN-DIANA/DIANA-MD-
+https://github.com/QUEEN-DIANA/DIANA-MD
 
 *📢 MAIN CHANNEL:*
 https://whatsapp.com/channel/0029VbAxlQKHFxOvBw4stl3s
