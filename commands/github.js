@@ -1,5 +1,5 @@
 async function githubCommand(sock, chatId) {
-    const repoInfo = `*🤖 SNOWBIRD XMD*
+    const repoInfo = `*🤖 DIANA XMD*
 
 *📂 GitHub Repository:*
 https://github.com/QUEEN-DIANA/DIANA-MD-
