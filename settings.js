@@ -3,7 +3,7 @@ const settings = {
   author: '‎',
   botName: "DIANA-XMD",
   botOwner: '🧝‍♂️𝐃𝐢𝐚𝐍𝐚 𝐃𝐞𝐯🧝‍♂️', // Your name
-  ownerNumber: '18492785095', //Set your number here without + symbol, just add country code & number without any space
+  ownerNumber: '18492823944', //Set your number here without + symbol, just add country code & number without any space
   giphyApiKey: 'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq',
   commandMode: "public",
   description: "This is a bot for managing group commands and automating tasks.",
