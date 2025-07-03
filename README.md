@@ -1,56 +1,42 @@
-<h1 align="center">🤖 Diana-MD WhatsApp Bot</h1>
+<h1 align="center">👑 DIANA-MD</h1>
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Developer-Queen%20Diana-pink" />
-  <img src="https://img.shields.io/badge/Platform-WhatsApp-green" />
-  <img src="https://img.shields.io/github/license/QueenDiana/Diana-MD" />
+  WhatsApp Multi-Device Bot powered by <strong>Queen Diana</strong><br>
+  <b>Cloud-ready, Panel-only Deployment</b> | 💻 <i>No Local Setup Needed</i>
 </p>
 
 <p align="center">
-  A powerful and user-friendly WhatsApp bot built with <strong>Baileys</strong> library. <br>
-  Packed with fun features, automation, group tools, media support, and more!<br><br>
-  💫 Developed with ❤️ by <strong>Queen Diana</strong>
+  <a href="https://github.com/QUEEN-DIANA/DIANA-MD/archive/refs/heads/main.zip">
+    <img src="https://img.shields.io/badge/📦 Download-ZIP-blue?style=for-the-badge" alt="Download ZIP">
+  </a>
+  <a href="https://github.com/QUEEN-DIANA/DIANA-MD">
+    <img src="https://img.shields.io/badge/🌐 View-Code-black?style=for-the-badge" alt="GitHub Code">
+  </a>
+  <a href="https://github.com/QUEEN-DIANA/DIANA-MD/fork">
+    <img src="https://img.shields.io/badge/🍴 Fork-Repo-green?style=for-the-badge" alt="Fork">
+  </a>
 </p>
-<div align="center">
-
-  <!-- Deploy to Heroku -->
-  <a href="https://heroku.com/deploy?template=https://github.com/QUEEN-DIANA/DIANA-MD" target="_blank">
-    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
-  </a>
-
-  <!-- GitHub Repo Button -->
-  <a href="https://github.com/QUEEN-DIANA/DIANA-MD" target="_blank">
-    <img src="https://img.shields.io/badge/Repo-%20QUEEN--DIANA%2FDIANA--MD-blue?style=for-the-badge&logo=github" alt="GitHub Repo">
-  </a>
-
-  <!-- Fork Button -->
-  <a href="https://github.com/QUEEN-DIANA/DIANA-MD/fork" target="_blank">
-    <img src="https://img.shields.io/badge/Fork--blue?style=for-the-badge&logo=github" alt="Fork Repo">
-  </a>
-
-</div>
 
 ---
 
-## 🚀 Features
+## 🚀 Deploy on Panels Only
 
-- ✅ Group management tools
-- ✅ Downloader (YT, FB, IG, etc.)
-- ✅ Fun and games
-- ✅ AI Chatbot
-- ✅ Sticker maker
-- ✅ Auto-replies and welcome messages
-- ✅ NSFW toggle (optional)
-- ✅ Media converter
-- ✅ Weather, news, lyrics, and more!
+| Platform | Status | Deploy |
+|----------|--------|--------|
+| Heroku   | ✅ | [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/QUEEN-DIANA/DIANA-MD) |
+| Railway  | ✅ | [Deploy on Railway](https://railway.app/new/template?template=https://github.com/QUEEN-DIANA/DIANA-MD) |
+| Render   | ✅ | [Deploy on Render](https://dashboard.render.com/blueprint/new?repo=https://github.com/QUEEN-DIANA/DIANA-MD) |
+
+> ❗ This bot is **not made for local execution** — use supported cloud panels only.
 
 ---
 
-## 📦 Installation
+## ⚙️ Setup ENV Variables
 
-### 💻 Deploy Locally
+During deployment, provide the following:
 
-```bash
-git clone https://github.com/QueenDiana/Diana-MD
-cd Diana-MD
-npm install
-node .
+```env
+SESSION_ID=Your WhatsApp Session ID
+OWNER_NUMBER=2547XXXXXXXX
+BOT_NAME=DIANA-MD
+PREFIX=.
