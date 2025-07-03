@@ -29,7 +29,7 @@ async function pairCommand(sock, chatId, message, q) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363401903613460@newsletter',
+                        newsletterJid: '120363418937884318@newsletter',
                         newsletterName: 'Diana xMD',
                         serverMessageId: -1
                     }
