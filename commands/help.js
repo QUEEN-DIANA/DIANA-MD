@@ -147,7 +147,7 @@ async function helpCommand(sock, chatId, channelLink) {
 POWERED BY DIANA 🌍:`;
 
     try {
-        const imagePath = path.join(__dirname, '../assets/DIANA-MD.jpg');
+        const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
         
         if (fs.existsSync(imagePath)) {
             const imageBuffer = fs.readFileSync(imagePath);
