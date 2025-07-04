@@ -1,7 +1,7 @@
 <h1 align="center">👑 DIANA-MD</h1>
 
 <p align="center">
-  <img src="https://files.catbox.moe/v25525.jpg" alt="Diana-MD Profile" width="200" style="border-radius: 20px;" />
+  <img src="https://files.catbox.moe/hd0eoo.jpg" alt="Diana-MD Profile" width="200" style="border-radius: 20px;" />
 </p>
 
 <p align="center">
