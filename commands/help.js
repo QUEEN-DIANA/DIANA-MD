@@ -162,7 +162,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ┃🌀╰────────────┈⊷
 ╰──────────────────┈⊷
 
-POWERED BY DIANA 🌍:`;
+𝑷𝑶𝑾𝑬𝑹𝑬𝑫 𝑩𝒀🧝𝑸𝑼𝑬𝑬𝑵~𝑫𝑰𝑨𝑵𝑨🧝:`;
 
     try {
         const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
