@@ -9,7 +9,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ┃✰│🧛🏼‍♀️ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : *[ panel ]*
 ┃✰│🧛🏼‍♀️ 𝗣𝗿𝗲𝗳𝗶𝘅 : *[ . ]*
 ┃✰│🧛🏼‍♀️ 𝗠𝗼𝗱𝗲 : *[ public ]*
-┃✰│🧛🏼‍♀️ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 :  *👩‍💻 ${settings.botName || 'DIANA-XMD'}*  
+┃✰│🧛🏼‍♀️ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 :  *${settings.botName || 'DIANA-XMD'}*  
 ┃✰│🧛🏼‍♀️ 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 :  *${settings.version || '1.0.0'}*
 ┃✰│🧛🏼‍♀️ 𝗖𝗥𝗘𝗔𝗧𝗢𝗥 : ${settings.botOwner || 'DIANA'}
 ┃✰│🧛🏼‍♀️ 𝗬𝗧 : ${global.ytch}
@@ -18,7 +18,7 @@ async function helpCommand(sock, chatId, channelLink) {
 
 * BOT MENU💣:*
 
-╭━━〔 *🌹 GENERAL MENU 🌹* 〕━━┈⊷
+╭━〔 *🌹 GENERAL MENU 🌹* 〕━⊷
 ┃🌸╭──────────────·๏
 ┃🌸│ .help
 ┃🌸│ .menu
@@ -75,7 +75,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ┃🪔╰────────────┈⊷
 ╰──────────────────┈⊷
 
-╭━━〔 *🌌IMAGE MENU 🌌*〕━━┈⊷
+╭━〔 *🌌IMAGE MENU 🌌*〕━┈⊷
 ┃🇲🇨╭──────────────·๏
 ┃⚖️│ .blur
 ┃🇲🇨│ .simage
@@ -119,7 +119,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ┃⚖️╰────────────┈⊷
 ╰──────────────────┈⊷
 
-╭━━〔 *✍️TEXT MAKER MENU ✍️* 〕━━┈⊷
+╭━〔 *✍️TEXT MAKER MENU ✍️* 〕━┈⊷
 ┃👩‍💻╭──────────────·๏
 ┃🧝‍♂️│ .metallic
 ┃👩‍💻│ .ice
@@ -142,7 +142,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ┃🧝‍♂️╰────────────┈⊷
 ╰──────────────────┈⊷
 
-╭━━〔 *🔊DOWNLOADER  MENU 🔊*〕━━┈⊷
+╭━〔 *🔊DOWNLOADER  MENU 🔊*〕━┈⊷
 ┃⏳╭──────────────·๏
 ┃⏳│ .play
 ┃⏳│ .song
@@ -152,7 +152,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ┃⏳╰────────────┈⊷
 ╰──────────────────┈⊷
 
-╭━━〔 *🔱 GITHUB MENU🔱* 〕━━┈⊷
+╭━〔 *🔱 GITHUB MENU🔱* 〕━┈⊷
 ┃🌀╭──────────────·๏
 ┃🌀│ .git
 ┃🌀│ .github 
