@@ -1,4 +1,4 @@
-<h1 align="center">👑 DIANA-MD</h1>
+<h1 align="center"> DIANA-MD</h1>
 
 <p align="center">
   <img src="https://files.catbox.moe/jvxv5i.jpg" alt="Diana-MD Profile" width="200" style="border-radius: 20px;" />
