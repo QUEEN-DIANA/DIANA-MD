@@ -1,10 +1,7 @@
 <h1 align="center"> DIANA-MD</h1>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=506EF8&lines=WELCOME+TO+QUEEN+DIANA+MD+BY
-
 <img align="center" height="auto"
 src="https://files.catbox.moe/jvxv5i.jpg">
-
 
 <p align="center">
   WhatsApp Multi-Device Bot powered by <strong>Queen Diana</strong><br>
