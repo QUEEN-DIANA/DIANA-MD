@@ -3,9 +3,9 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=506EF8&lines=WELCOME+TO+QUEEN+DIANA+MD+BY;JELIO+STARR+DEV;THANKS+FOR+VISITING+MY+REPO)](https://git.io/typing-svg)
 <br>
 
-<p align="center">
-  <img src="https://files.catbox.moe/jvxv5i.jpg" alt="Diana-MD Profile" width="200" style="border-radius: 20px;" />
-</p>
+<img align="center" height="auto"
+src="https://files.catbox.moe/tx03aw.png">
+
 
 <p align="center">
   WhatsApp Multi-Device Bot powered by <strong>Queen Diana</strong><br>
