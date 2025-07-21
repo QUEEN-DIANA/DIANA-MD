@@ -4,7 +4,7 @@
 <br>
 
 <img align="center" height="auto"
-src="https://files.catbox.moe/tx03aw.png">
+src="https://files.catbox.moe/jvxv5i.jpg">
 
 
 <p align="center">
