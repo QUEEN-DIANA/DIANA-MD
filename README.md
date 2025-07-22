@@ -44,3 +44,7 @@ During deployment, provide the following:
 
 ```env
 DEPLOY ON A PANEL IT WILL PAIR WHILE DEPLOYING 
+
+
+**© DEV DIANA**
+##
