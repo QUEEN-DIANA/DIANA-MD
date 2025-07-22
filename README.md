@@ -46,5 +46,4 @@ During deployment, provide the following:
 DEPLOY ON A PANEL IT WILL PAIR WHILE DEPLOYING 
 
 
-**© DEV DIANA**
-##
+*© DEV DIANA*
